@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E86336F1DDAE0C7005CA1A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86336E1DDAE0C7005CA1A6 /* AppDelegate.swift */; };
+		5E8633711DDAE0C7005CA1A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8633701DDAE0C7005CA1A6 /* ViewController.swift */; };
+		5E8633741DDAE0C7005CA1A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8633721DDAE0C7005CA1A6 /* Main.storyboard */; };
+		5E8633761DDAE0C7005CA1A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8633751DDAE0C7005CA1A6 /* Assets.xcassets */; };
+		5E8633791DDAE0C7005CA1A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8633771DDAE0C7005CA1A6 /* LaunchScreen.storyboard */; };
+		5E8633841DDAE0C7005CA1A6 /* MZNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8633831DDAE0C7005CA1A6 /* MZNetworkTests.swift */; };
+		5E86338F1DDAE0C7005CA1A6 /* MZNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86338E1DDAE0C7005CA1A6 /* MZNetworkUITests.swift */; };
+		5E86339D1DDAE7F7005CA1A6 /* VIPApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E86339C1DDAE7F7005CA1A6 /* VIPApi.swift */; };
+		5E8634111DDBF5CB005CA1A6 /* MZNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8634101DDBF5CB005CA1A6 /* MZNetworkManager.swift */; };
+		5E8634131DDC1441005CA1A6 /* MoyaCustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8634121DDC1441005CA1A6 /* MoyaCustomExtension.swift */; };
+		63D7849ACA07428C39A875B2 /* Pods_MZNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFDFF8022E764DD07A918AA /* Pods_MZNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E8633801DDAE0C7005CA1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8633631DDAE0C7005CA1A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E86336A1DDAE0C7005CA1A6;
+			remoteInfo = MZNetwork;
+		};
+		5E86338B1DDAE0C7005CA1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8633631DDAE0C7005CA1A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E86336A1DDAE0C7005CA1A6;
+			remoteInfo = MZNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFD68D79ABD2DAB4F157D2F /* Pods-MZNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZNetwork/Pods-MZNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		2EEEA8843497E181440238F2 /* Pods-MZNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZNetwork/Pods-MZNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		5BFDFF8022E764DD07A918AA /* Pods_MZNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E86336B1DDAE0C7005CA1A6 /* MZNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E86336E1DDAE0C7005CA1A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E8633701DDAE0C7005CA1A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E8633731DDAE0C7005CA1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E8633751DDAE0C7005CA1A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E8633781DDAE0C7005CA1A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E86337A1DDAE0C7005CA1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E86337F1DDAE0C7005CA1A6 /* MZNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8633831DDAE0C7005CA1A6 /* MZNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZNetworkTests.swift; sourceTree = "<group>"; };
+		5E8633851DDAE0C7005CA1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E86338A1DDAE0C7005CA1A6 /* MZNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E86338E1DDAE0C7005CA1A6 /* MZNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZNetworkUITests.swift; sourceTree = "<group>"; };
+		5E8633901DDAE0C7005CA1A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E86339C1DDAE7F7005CA1A6 /* VIPApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPApi.swift; sourceTree = "<group>"; };
+		5E8634101DDBF5CB005CA1A6 /* MZNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZNetworkManager.swift; sourceTree = "<group>"; };
+		5E8634121DDC1441005CA1A6 /* MoyaCustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoyaCustomExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E8633681DDAE0C7005CA1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D7849ACA07428C39A875B2 /* Pods_MZNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E86337C1DDAE0C7005CA1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8633871DDAE0C7005CA1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47FF208DAFDAC592226A38BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FFD68D79ABD2DAB4F157D2F /* Pods-MZNetwork.debug.xcconfig */,
+				2EEEA8843497E181440238F2 /* Pods-MZNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E8633621DDAE0C7005CA1A6 = {
+			isa = PBXGroup;
+			children = (
+				5E86336D1DDAE0C7005CA1A6 /* MZNetwork */,
+				5E8633821DDAE0C7005CA1A6 /* MZNetworkTests */,
+				5E86338D1DDAE0C7005CA1A6 /* MZNetworkUITests */,
+				5E86336C1DDAE0C7005CA1A6 /* Products */,
+				47FF208DAFDAC592226A38BC /* Pods */,
+				9E1BBF21E8441EA83141D9BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E86336C1DDAE0C7005CA1A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E86336B1DDAE0C7005CA1A6 /* MZNetwork.app */,
+				5E86337F1DDAE0C7005CA1A6 /* MZNetworkTests.xctest */,
+				5E86338A1DDAE0C7005CA1A6 /* MZNetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E86336D1DDAE0C7005CA1A6 /* MZNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				5E86336E1DDAE0C7005CA1A6 /* AppDelegate.swift */,
+				5E8633701DDAE0C7005CA1A6 /* ViewController.swift */,
+				5E86339C1DDAE7F7005CA1A6 /* VIPApi.swift */,
+				5E8634101DDBF5CB005CA1A6 /* MZNetworkManager.swift */,
+				5E8634121DDC1441005CA1A6 /* MoyaCustomExtension.swift */,
+				5E8633721DDAE0C7005CA1A6 /* Main.storyboard */,
+				5E8633751DDAE0C7005CA1A6 /* Assets.xcassets */,
+				5E8633771DDAE0C7005CA1A6 /* LaunchScreen.storyboard */,
+				5E86337A1DDAE0C7005CA1A6 /* Info.plist */,
+			);
+			path = MZNetwork;
+			sourceTree = "<group>";
+		};
+		5E8633821DDAE0C7005CA1A6 /* MZNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E8633831DDAE0C7005CA1A6 /* MZNetworkTests.swift */,
+				5E8633851DDAE0C7005CA1A6 /* Info.plist */,
+			);
+			path = MZNetworkTests;
+			sourceTree = "<group>";
+		};
+		5E86338D1DDAE0C7005CA1A6 /* MZNetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E86338E1DDAE0C7005CA1A6 /* MZNetworkUITests.swift */,
+				5E8633901DDAE0C7005CA1A6 /* Info.plist */,
+			);
+			path = MZNetworkUITests;
+			sourceTree = "<group>";
+		};
+		9E1BBF21E8441EA83141D9BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BFDFF8022E764DD07A918AA /* Pods_MZNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E86336A1DDAE0C7005CA1A6 /* MZNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8633931DDAE0C7005CA1A6 /* Build configuration list for PBXNativeTarget "MZNetwork" */;
+			buildPhases = (
+				732EE19C9D6C32EF207790E7 /* [CP] Check Pods Manifest.lock */,
+				5E8633671DDAE0C7005CA1A6 /* Sources */,
+				5E8633681DDAE0C7005CA1A6 /* Frameworks */,
+				5E8633691DDAE0C7005CA1A6 /* Resources */,
+				1634D0D55B9FF47409358DC3 /* [CP] Embed Pods Frameworks */,
+				0DABD11F5FB3383AC4B7FEDB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZNetwork;
+			productName = MZNetwork;
+			productReference = 5E86336B1DDAE0C7005CA1A6 /* MZNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E86337E1DDAE0C7005CA1A6 /* MZNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8633961DDAE0C7005CA1A6 /* Build configuration list for PBXNativeTarget "MZNetworkTests" */;
+			buildPhases = (
+				5E86337B1DDAE0C7005CA1A6 /* Sources */,
+				5E86337C1DDAE0C7005CA1A6 /* Frameworks */,
+				5E86337D1DDAE0C7005CA1A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8633811DDAE0C7005CA1A6 /* PBXTargetDependency */,
+			);
+			name = MZNetworkTests;
+			productName = MZNetworkTests;
+			productReference = 5E86337F1DDAE0C7005CA1A6 /* MZNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E8633891DDAE0C7005CA1A6 /* MZNetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8633991DDAE0C7005CA1A6 /* Build configuration list for PBXNativeTarget "MZNetworkUITests" */;
+			buildPhases = (
+				5E8633861DDAE0C7005CA1A6 /* Sources */,
+				5E8633871DDAE0C7005CA1A6 /* Frameworks */,
+				5E8633881DDAE0C7005CA1A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E86338C1DDAE0C7005CA1A6 /* PBXTargetDependency */,
+			);
+			name = MZNetworkUITests;
+			productName = MZNetworkUITests;
+			productReference = 5E86338A1DDAE0C7005CA1A6 /* MZNetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E8633631DDAE0C7005CA1A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = George;
+				TargetAttributes = {
+					5E86336A1DDAE0C7005CA1A6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AR39NS83R8;
+						ProvisioningStyle = Automatic;
+					};
+					5E86337E1DDAE0C7005CA1A6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AR39NS83R8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E86336A1DDAE0C7005CA1A6;
+					};
+					5E8633891DDAE0C7005CA1A6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AR39NS83R8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E86336A1DDAE0C7005CA1A6;
+					};
+				};
+			};
+			buildConfigurationList = 5E8633661DDAE0C7005CA1A6 /* Build configuration list for PBXProject "MZNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E8633621DDAE0C7005CA1A6;
+			productRefGroup = 5E86336C1DDAE0C7005CA1A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E86336A1DDAE0C7005CA1A6 /* MZNetwork */,
+				5E86337E1DDAE0C7005CA1A6 /* MZNetworkTests */,
+				5E8633891DDAE0C7005CA1A6 /* MZNetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E8633691DDAE0C7005CA1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8633791DDAE0C7005CA1A6 /* LaunchScreen.storyboard in Resources */,
+				5E8633761DDAE0C7005CA1A6 /* Assets.xcassets in Resources */,
+				5E8633741DDAE0C7005CA1A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E86337D1DDAE0C7005CA1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8633881DDAE0C7005CA1A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DABD11F5FB3383AC4B7FEDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZNetwork/Pods-MZNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1634D0D55B9FF47409358DC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZNetwork/Pods-MZNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732EE19C9D6C32EF207790E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E8633671DDAE0C7005CA1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8633711DDAE0C7005CA1A6 /* ViewController.swift in Sources */,
+				5E8634111DDBF5CB005CA1A6 /* MZNetworkManager.swift in Sources */,
+				5E86339D1DDAE7F7005CA1A6 /* VIPApi.swift in Sources */,
+				5E8634131DDC1441005CA1A6 /* MoyaCustomExtension.swift in Sources */,
+				5E86336F1DDAE0C7005CA1A6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E86337B1DDAE0C7005CA1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8633841DDAE0C7005CA1A6 /* MZNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8633861DDAE0C7005CA1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E86338F1DDAE0C7005CA1A6 /* MZNetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E8633811DDAE0C7005CA1A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E86336A1DDAE0C7005CA1A6 /* MZNetwork */;
+			targetProxy = 5E8633801DDAE0C7005CA1A6 /* PBXContainerItemProxy */;
+		};
+		5E86338C1DDAE0C7005CA1A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E86336A1DDAE0C7005CA1A6 /* MZNetwork */;
+			targetProxy = 5E86338B1DDAE0C7005CA1A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E8633721DDAE0C7005CA1A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8633731DDAE0C7005CA1A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E8633771DDAE0C7005CA1A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E8633781DDAE0C7005CA1A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E8633911DDAE0C7005CA1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E8633921DDAE0C7005CA1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E8633941DDAE0C7005CA1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFD68D79ABD2DAB4F157D2F /* Pods-MZNetwork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AR39NS83R8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MZNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SZU.MZNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E8633951DDAE0C7005CA1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EEEA8843497E181440238F2 /* Pods-MZNetwork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AR39NS83R8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MZNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SZU.MZNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E8633971DDAE0C7005CA1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AR39NS83R8;
+				INFOPLIST_FILE = MZNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SZU.MZNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZNetwork.app/MZNetwork";
+			};
+			name = Debug;
+		};
+		5E8633981DDAE0C7005CA1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AR39NS83R8;
+				INFOPLIST_FILE = MZNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SZU.MZNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZNetwork.app/MZNetwork";
+			};
+			name = Release;
+		};
+		5E86339A1DDAE0C7005CA1A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AR39NS83R8;
+				INFOPLIST_FILE = MZNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SZU.MZNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MZNetwork;
+			};
+			name = Debug;
+		};
+		5E86339B1DDAE0C7005CA1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AR39NS83R8;
+				INFOPLIST_FILE = MZNetworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SZU.MZNetworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MZNetwork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E8633661DDAE0C7005CA1A6 /* Build configuration list for PBXProject "MZNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8633911DDAE0C7005CA1A6 /* Debug */,
+				5E8633921DDAE0C7005CA1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8633931DDAE0C7005CA1A6 /* Build configuration list for PBXNativeTarget "MZNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8633941DDAE0C7005CA1A6 /* Debug */,
+				5E8633951DDAE0C7005CA1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8633961DDAE0C7005CA1A6 /* Build configuration list for PBXNativeTarget "MZNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8633971DDAE0C7005CA1A6 /* Debug */,
+				5E8633981DDAE0C7005CA1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8633991DDAE0C7005CA1A6 /* Build configuration list for PBXNativeTarget "MZNetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E86339A1DDAE0C7005CA1A6 /* Debug */,
+				5E86339B1DDAE0C7005CA1A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E8633631DDAE0C7005CA1A6 /* Project object */;
+}
